@@ -24,6 +24,24 @@ create-nuxt-app v2.11.1
 ? Choose development tools jsconfig.json (Recommended for VS Code)
 ```
 
+## To deploy:
+
+This has been set up on Netlify with two branches:
+
+staging.vawagetheft.org is "staging"
+
+vawagetheft.org and www.vawagetheft.org is "production"
+
+Scripts have been created to deploy:
+
+```bash
+npm run staging
+```
+
+```bash
+npm run production
+```
+
 ## Build Setup
 
 ``` bash
