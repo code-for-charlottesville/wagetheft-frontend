@@ -1,5 +1,6 @@
 <template>
 	<header class="site-header">
+		<img src="~/assets/logo.png" alt="logo">
 		<h1>VA Wage Theft</h1>
 	</header>
 </template>
@@ -10,6 +11,8 @@
 	}
 </script>
 
-<style lang="scss" scoped>
-
+<style scoped>
+	header {
+		display: flex;
+	}
 </style>
