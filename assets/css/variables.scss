@@ -1,4 +1,18 @@
 // put all color information and other "skinning" items here.
 // don't define colors or box shadows outside of this file.
 
+$selected-color: #000000;
+
 $header-background: #F1F1F1;
+$popup-background: #ffffff;
+$disabled-button-background: #cccccc;
+$list-hover-background: #dddddd;
+$selected-background: #9abb8f;
+
+@mixin boxShadow-popup {
+	box-shadow: 2px 2px 4px #cccccc, 0 0 1px #cccccc;
+}
+
+@mixin boxShadow-button {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+}

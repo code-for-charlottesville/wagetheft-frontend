@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'VA Wage Theft',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -32,6 +32,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+	  { src: '@/plugins/vue-shortkey.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
