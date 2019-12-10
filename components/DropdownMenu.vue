@@ -193,7 +193,6 @@
 			content: '∨';
 			float: right;
 			transition: transform 0.5s;
-			margin-left: 20px;
 		}
 	}
 

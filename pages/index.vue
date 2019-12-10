@@ -1,10 +1,7 @@
 <template>
 	<div class="home-page">
-		<h2>
-			The user-facing website for helping workers recover wages.
-		</h2>
-		<div>
-			{{ $t('greeting') }}
+		<div class="coming-soon hand-drawn lined thick">
+			{{ $t('coming soon') }}
 		</div>
 	</div>
 </template>
@@ -15,6 +12,11 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+	.coming-soon {
+		padding: 40px;
+		margin: 10px auto;
+		max-width: 300px;
+		font-size: 30px
+	}
 </style>

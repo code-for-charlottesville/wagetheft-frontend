@@ -1,6 +1,6 @@
 <template>
 	<div class="select-language">
-		<dropdown-menu alt="Select Language" label="Select Language" :options="options" :current-selection="$i18n.locale" @click="changeLanguage"></dropdown-menu>
+		<dropdown-menu :alt="$t('Select Language')" :label="$t('Select Language')" :options="options" :current-selection="$i18n.locale" @click="changeLanguage"></dropdown-menu>
 	</div>
 </template>
 
