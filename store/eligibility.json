@@ -1,0 +1,98 @@
+[
+	{
+		"en-question": "Are you reporting wage theft?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "stop",
+		"action-yes": "next",
+		"en-stop-explanation": "This form is just for reporting wage theft.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Are you claiming vacation pay, sick pay, severance pay, holiday pay?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, you need to see a lawyer.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Are you claiming Worker's Compensation?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, please go to the Worker's Compensation Commission.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "For this job, were you an independent contractor or 1099 worker?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, please report this to the IRS.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Is this complaint about overtime pay?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, please go to USDOL.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Did the employer go bankrupt?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, please go to US courts.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Is the employer out of business?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Sorry, there is nothing you can do.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Was the work performed outside of Virginia?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Please visit wagetheft.org.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Is this claim about a bonus?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, you need to see a lawyer.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Did you have a written work agreement?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, you need to see a lawyer.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Is there a court case pending?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, you need to see a lawyer.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	},
+	{
+		"en-question": "Is the claim for more than $15,000?",
+		"es-question": "¡Hola, mundo!",
+		"action-no": "next",
+		"action-yes": "stop",
+		"en-stop-explanation": "Instead of filing this form, you need to see a lawyer.",
+		"es-stop-explanation": "¡Hola, mundo!"
+	}
+]
