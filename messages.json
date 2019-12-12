@@ -1,12 +1,22 @@
 {
 	"en": {
 		"coming soon": "Coming soon! This site will help you recover lost wages from wage theft.",
+		"eligibility test": "See if you are eligible",
+		"go to form": "Fill out form",
+		"More Info": "More Info",
+		"No": "No",
 		"Select Language": "Select Language",
-		"site title": "VA Wage Theft"
+		"site title": "VA Wage Theft",
+		"Yes": "Yes"
 	},
 	"es": {
 		"coming soon": "¡Hola, mundo!",
+		"eligibility test": "¡Hola, mundo!",
+		"go to form": "¡Hola, mundo!",
+		"More Info": "¡Hola, mundo!",
+		"No": "No",
 		"Select Language": "¡Hola, mundo!",
-		"site title": "¡Hola, mundo!"
+		"site title": "¡Hola, mundo!",
+		"Yes": "Si"
 	}
 }

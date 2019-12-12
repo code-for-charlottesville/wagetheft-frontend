@@ -1,8 +1,8 @@
 <template>
 	<div class="home-page">
-		<div class="coming-soon hand-drawn lined thick">
-			{{ $t('coming soon') }}
-		</div>
+		<nuxt-link to="/moreinfo" class="page-link hand-drawn lined thick">{{$t("More Info")}}</nuxt-link>
+		<nuxt-link to="/eligibilityrequirements" class="page-link hand-drawn lined thick">{{$t("eligibility test")}}</nuxt-link>
+		<nuxt-link to="/filloutform" class="page-link hand-drawn lined thick">{{$t("go to form")}}</nuxt-link>
 	</div>
 </template>
 
@@ -13,10 +13,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-	.coming-soon {
-		padding: 40px;
-		margin: 10px auto;
-		max-width: 300px;
-		font-size: 30px
+	.home-page {
+		display: flex;
+	}
+	.page-link {
+		display: inline-block;
+		padding: 30px;
 	}
 </style>

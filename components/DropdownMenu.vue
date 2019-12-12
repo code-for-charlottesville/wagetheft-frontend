@@ -89,7 +89,7 @@
 				return this.currentSelection;
 			},
 			selectorClass() {
-				let classes = ['selector'];
+				let classes = ['selector', 'hand-drawn lined thin'];
 				if (this.showDropDown)
 					classes.push('open');
 				if (!this.disabled)
@@ -175,7 +175,8 @@
 			background: white;
 			@include boxShadow-button;
 			border-radius: 6px;
-			margin-top: 5px;
+			margin: 5px 0 0 0;
+			padding: 0 5px;
 			font-size: 20px;
 		}
 	}

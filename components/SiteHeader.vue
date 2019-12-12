@@ -1,7 +1,9 @@
 <template>
-	<header class="site-header">
+	<header class="site-header hand-drawn lined thin">
 		<div class="title">
-		<img class="wide-only" src="~/assets/img/logo.png" alt="logo">
+			<nuxt-link to="/">
+				<img class="wide-only" src="~/assets/img/logo.png" alt="logo">
+			</nuxt-link>
 		<h1>{{$t("site title")}}</h1>
 		</div>
 		<select-language></select-language>
@@ -35,6 +37,7 @@
 		header {
 			display: flex;
 			padding: 0 15px;
+			margin-bottom: 10px;
 		}
 		.wide-only {
 			display: inherit;

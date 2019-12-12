@@ -6,9 +6,16 @@
 </template>
 
 <script>
+	import { mapActions } from 'vuex';
 	import SiteHeader from '../components/SiteHeader'
 	export default {
-		components: { SiteHeader }
+		components: { SiteHeader },
+		mounted() {
+			this.initData();
+		},
+		methods: {
+			...mapActions(['initData']),
+		},
 	}
 </script>
 
