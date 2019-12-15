@@ -19,8 +19,7 @@
 		},
 		methods: {
 			changeLanguage(language) {
-				const path = language.selection === 'en' ? '' : language.selection;
-				this.$router.push(`/${path}`);
+				this.$router.push(this.switchLocalePath(language.selection));
 			},
 		},
 	};
